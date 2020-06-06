@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#22807094">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#F25409A8"
+        app:title="BMI Calculator"
+        app:titleTextColor="#FFF"
+        app:titleMarginStart="50dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="40dp"
+        android:background="#F25409A8">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="-50dp"
+        android:background="@drawable/bg"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColorHint="#000"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="50dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/wghtkg"
+                android:layout_width="380dp"
+                android:layout_height="50dp"
+                android:hint="Weight in Kg"
+                android:paddingStart="25dp"
+                android:inputType="numberDecimal"
+                android:drawableEnd="@drawable/ic_weight"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColorHint="#000"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="30dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/hgtcm"
+                android:layout_width="380dp"
+                android:layout_height="50dp"
+                android:hint="Height in cm"
+                android:inputType="numberDecimal"
+                android:drawableEnd="@drawable/ic_height"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/bmical"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:text="BMI"
+            android:background="@drawable/bmi_bg"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bmirslt_ll"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/bg"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="10dp"
+            android:text="Your Result"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/bmirslt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="160dp"
+            android:textColor="#000"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="40dp"
+            android:src="@drawable/bmi_img" />
+
+    </LinearLayout>
+
+</LinearLayout>

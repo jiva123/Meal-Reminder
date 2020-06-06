@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "78230309452",
+    "firebase_url": "https://meal-reminder-9e083.firebaseio.com",
+    "project_id": "meal-reminder-9e083",
+    "storage_bucket": "meal-reminder-9e083.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:78230309452:android:26d189fe347e77c37142e9",
+        "android_client_info": {
+          "package_name": "com.example.mealreminder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "78230309452-ptnbqj7f65lhr4lk15mcd959nhnurrn5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mealreminder",
+            "certificate_hash": "b18d01881e11d1ea6ac1f7fec1dafb4623b74191"
+          }
+        },
+        {
+          "client_id": "78230309452-stl87ushg1pimu7sg77pr081mgd1vu07.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVLvWkKukntGlPmwjyrjwiXlVAt6pOvQs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "78230309452-stl87ushg1pimu7sg77pr081mgd1vu07.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

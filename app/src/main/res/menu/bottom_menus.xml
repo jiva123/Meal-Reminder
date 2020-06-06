@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/cal"
+        android:icon="@drawable/calcu"
+        android:title="Calculator" />
+
+    <item android:id="@+id/rmder"
+        android:title="Reminder"
+        android:icon="@drawable/reminder"/>
+
+    <item android:id="@+id/prf"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="Profile"/>
+
+</menu>
