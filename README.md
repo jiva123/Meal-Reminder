@@ -5,6 +5,12 @@ You can calculate your BMI and step counter in the app.
 Splash screen page
 ![Screenshot_2020-06-06-09-47-35-337_com example mealreminder](https://user-images.githubusercontent.com/42537151/85901906-5acbee80-b820-11ea-9e8a-bd1f60f88fee.jpg)
 
+Login page
+![Screenshot_2020-06-27-03-23-22-359_com example mealreminder](https://user-images.githubusercontent.com/42537151/85904169-b187f700-b825-11ea-8ab6-10d85bc885a6.jpg)
+
+Signup page
+![Screenshot_2020-06-27-03-23-27-212_com example mealreminder](https://user-images.githubusercontent.com/42537151/85904174-b351ba80-b825-11ea-9bc3-dcd24e3225cf.jpg)
+
 Reminder page
 ![Screenshot_2020-06-06-09-47-55-144_com example mealreminder](https://user-images.githubusercontent.com/42537151/85901900-58699480-b820-11ea-9902-1feb339efc41.jpg)
 
